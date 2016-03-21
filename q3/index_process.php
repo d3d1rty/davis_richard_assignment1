@@ -1,4 +1,9 @@
 <?php
+  // CSCI 4000
+  // Dr. Leong Lee
+  // Richard Davis
+  // Assignment 1
+
   // get data from form via get
   $power = $_GET['power_level'];
 
@@ -40,6 +45,7 @@
       <p>601 to 800: Po climbs the Wu Da Mountains</p>
       <p>801 to 1000: Po trains at the Pool of Sacred Tears</p>
       <p>Greater than 1000: Po defeats Tai Lung</p>
+      <!-- displays the entered power level and the corresponding metric -->
       <h4>Po's power level is <?php echo htmlspecialchars($power) ?>.</h4>
       <h4><?php echo htmlspecialchars($metric); ?>.</h4>
       <a href="index.htm">Go back</a>

@@ -1,4 +1,9 @@
 <?php
+  // CSCI 4000
+  // Dr. Leong Lee
+  // Richard Davis
+  // Assignment 1
+
   // get data from from via post
   $v_type = $_POST['vehicle_type'];
   $color = $_POST['color'];

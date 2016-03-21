@@ -1,4 +1,10 @@
-header {
+/* CSCI 4000
+ * Dr. Leong Lee
+ * Richard Davis
+ * Assignment 1 */
+
+/* stylings for html and php documents */
+  header {
   background-color: #fbe5bc;
   border: 2px solid #f9d490;
   width: 45%;
