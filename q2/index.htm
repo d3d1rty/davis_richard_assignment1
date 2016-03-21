@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Richard Davis's Soccer Ticket Price</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Richard Davis's Soccer Ticket Price</h1>
+    </header>
+    <section>
+      <h3>This page will decide the cost of Richard's soccer ticket price based on his age.</h3>
+      <ul>
+        <li>Under age 5 (age &lt; 5) cost is $2.00</li>
+        <li>Between ages 5 and 15 (5 &gt;= age &lt;= 15) cost is $6.00</li>
+        <li>Older than 15 (age &gt; 15) cost is $8.00</li>
+      </ul>
+      <h4>Please enter Richard's age</h4>
+      <form action="index_process.php" method="get">
+        <input type="text" name="age">
+        <label>&nbsp;years old</label><br>
+        <input type="submit" value="Submit"><br>
+      </form>
+    </section>
+  </body>
+</html>

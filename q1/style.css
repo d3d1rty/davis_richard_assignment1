@@ -1,0 +1,86 @@
+header {
+  background-color: #fbe5bc;
+  border: 2px solid #f9d490;
+  width: 45%;
+  margin-top: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0em;
+  padding: 1em;
+}
+h1 {
+  font: 225% Georgia, serif;
+  text-align: center;
+  color: #71dac0;
+}
+body {
+  background-color: white;
+}
+section {
+  background-color: #fef9f0;
+  border: 2px solid #f9d490;
+  border-top: none;
+  width: 45%;
+  margin-top: 0em;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+}
+h3 {
+  font: 125% Georgia, serif;
+  color: #0f0a01;
+  margin-top: 0em;
+  margin-bottom: 1em;
+}
+h4 {
+  font: 115% Georgia, serif;
+  color: #71dac0;
+}
+label {
+  color: #71dac0;
+  font: 105% Georgia, serif;
+  width: 10em;
+  padding-right: 1em;
+  float: left;
+}
+input[type="text"] {
+  font: 110% Georgia, serif;
+  color: #0f0a01;
+  float: left;
+  width: 15em;
+  margin-bottom: .5em;
+}
+input[type="submit"] {
+  font: 110% Georgia, serif;
+  color: #0f0a01;
+  float: left;
+  margin-bottom: .5em;
+}
+section form br {
+  clear: left;
+}
+section ul {
+
+}
+section ul li {
+  font: 110% Georgia, serif;
+  color: #0f0a01;
+  padding-bottom: 1em;
+}
+section ul li span.items {
+  padding-top: 0em;
+  float: left;
+  width: 10em;
+}
+section ul li span.values {
+  padding-top: 0em;
+  float: left;
+  width: 13em;
+}
+section ul li br {
+  clear: left;
+}
+a {
+  font: 110% Georgia, serif;
+  color: #71dac0;
+}
